@@ -1,0 +1,56 @@
+#mainTable
+{
+	border: 1px solid black;
+	border-collapse:collapse;
+	font-size: 18px;
+}
+
+thead
+{
+	border: 1px solid black;
+	border-collapse:collapse;
+}
+
+#notebooksTable	
+{
+	margin: 10px;
+	border: 1px solid black;
+	border-collapse:collapse;
+}
+
+img
+{
+	width: 150px;
+}
+
+
+td
+{	
+	text-align: center;
+}
+
+#rangeTable
+{
+	margin: 10px;
+	width: 250px;
+	font-size: 22px;
+	border-spacing:10px 30px;
+	
+}
+
+
+input[type="range"]
+{
+	width: 250px;
+	
+}
+
+.leftColumn
+{
+	text-align: left;
+}
+
+.rightColumn
+{
+	text-align: right;
+}

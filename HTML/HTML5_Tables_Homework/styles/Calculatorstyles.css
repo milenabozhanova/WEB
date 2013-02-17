@@ -1,0 +1,25 @@
+table
+{
+	border-color: #3300CC;	
+}
+
+#result
+{
+	width:200px;
+        height:50px;
+	text-align: right;
+	background-color: #CCCCFF;
+}
+#zero
+{
+        width: 100px;
+        height: 50px;
+}
+ 
+input[type="button"]
+{
+        width: 50px;
+        height: 50px;
+	color: #3300CC; 
+	background-color: #CCCCFF;
+}

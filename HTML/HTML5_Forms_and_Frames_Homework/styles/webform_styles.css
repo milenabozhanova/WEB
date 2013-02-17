@@ -1,0 +1,39 @@
+table
+{
+	font: 20px, sans-serif, areal;
+	border: 1px solid grey;
+	border-collapse:collapse;
+}
+
+th
+{
+	border: 1px solid grey;
+	width : 100px;
+	vertical-align:middle;
+	text-align: right;	
+}	
+
+td
+{
+	border: 1px solid grey;
+}
+
+#month, #day
+{
+	width: 20px;
+}
+
+#year, .phone-code, #pc
+{
+	width: 40px;
+}
+
+#lastTr
+{	
+	background: #E0FFFF;
+}
+
+#city, #state, .phone
+{
+	width: 100px;
+}

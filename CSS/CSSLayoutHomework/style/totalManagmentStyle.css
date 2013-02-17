@@ -1,0 +1,53 @@
+header
+{
+	font-size: 2em;
+	background: #414141;
+	color: #FFFFF0;
+	maring-left: 0px;
+}
+
+form
+{
+	display: inline-block;
+}
+
+img
+{
+	margin: 10px;
+}
+
+input[type="submit"]
+{
+	border: none;
+	color: White;
+	width: 60px;
+	height: 30px;
+	background: url("../img/go.png") no-repeat;
+}
+
+input[type="submit"]:hover
+{
+	cursor: pointer;
+}
+
+body
+{
+	background: #4e4e4e;
+	color: #747474;
+}
+
+h1
+{
+	color: #FFD700;
+}
+
+p
+{
+	width: 600px;
+}
+
+span
+{
+	color: #FFFFF0;
+}
+

@@ -1,0 +1,25 @@
+body, ul, li, input, lable {
+  margin: 0;
+  padding: 0;
+  display: inline-block; }
+
+body ul.main-menu {
+  list-style-type: none;
+  position: relative;
+  margin-left: 10px; }
+body .bigPhoto {
+  display: none; 
+  width: 500px;
+  height: 500px;
+}
+body img.smallPhoto {
+  width: 100px;
+  height: 100px; }
+body input {
+  display: none; }
+  body input:checked + label .bigPhoto {
+    display: block;
+    position: absolute;
+    left: 0px;
+    width: 600px; }
+

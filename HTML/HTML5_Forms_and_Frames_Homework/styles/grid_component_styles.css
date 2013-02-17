@@ -1,0 +1,57 @@
+table
+{
+	border: 1px solid grey;
+	border-collapse:collapse;
+}
+
+th
+{
+	border: 1px solid grey;
+	vertical-align:middle;
+	background: #E6E6FA;
+	text-align: left;
+	font-weight: normal;
+	vertical-align:middle;
+}	
+
+tfoot
+{
+	background: #E6E6FA;
+	vertical-align:text-top;
+}
+
+td
+{
+	border: 1px solid grey;
+}
+
+
+#productID
+{	
+	width: 30px;
+}
+
+.textfield
+{	
+	width: 80px;
+}
+
+img
+{
+	width: 15px;
+}
+
+input 
+{
+	vertical-align:middle;
+}
+
+.pageExplanation
+{
+	text-align:right;
+}
+
+#selected-digit
+{
+	border: 1px solid red;
+}

@@ -1,0 +1,39 @@
+body
+{
+	background:#DDA0DD;
+	font: verdana, areal;
+	color:#800080;
+
+}
+
+h1
+{	
+	font-size: 20pt;
+}
+
+
+
+.navigation
+{
+	list-style-type:none;
+	display:inline;	
+	margin-left: 0px;
+	margin-right: 60px;
+	padding:0px;
+}
+
+
+a
+{
+	color:#800080;
+}
+
+img
+{
+	width:150px;
+}
+
+.friendsList
+{
+	font-style:italic;
+}

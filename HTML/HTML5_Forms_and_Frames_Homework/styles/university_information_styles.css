@@ -1,0 +1,18 @@
+table
+{
+	font: 20px, sans-serif, areal;
+	border: 1px solid black;
+	border-collapse:collapse;
+}
+
+th
+{
+	border: 1px solid black;
+	vertical-align:middle;
+}	
+
+td
+{
+	border: 1px solid black;
+}
+

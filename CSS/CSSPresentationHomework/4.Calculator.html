@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>4.Calculator</title>
+	<link href="style/calculatorStyle.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+	<div id="mainBox">
+		<ul id="menu">
+			<li class="menuItems">View</li>
+			<li class="menuItems">Edit</li>
+			<li class="menuItems">Help</li>
+		</ul>
+		<form>
+			<input type="text" id="display" value="88544557" />
+		</form>
+		<div id="binaryBox">
+               <div id="binaryRepresentation">
+                   <table>
+                       <tr>
+                           <td>0000</td>
+                           <td>0000</td>
+                           <td>0000</td>
+                           <td>0000</td>
+                           <td>0000</td>
+                           <td>0000</td>
+                           <td>0000</td>
+                           <td>0000</td>
+                       </tr>
+                       <tr >
+                           <td class="grayNumbers">63</td>
+                           <td></td>
+                           <td></td>
+                           <td></td>
+                           <td class="grayNumbers">47</td>
+                           <td></td>
+                           <td></td>
+                           <td class="grayNumbers">32</td>
+                       </tr>
+                       <tr>
+                           <td>0000</td>
+                           <td>0000</td>
+                           <td>0000</td>
+                           <td>0000</td>
+                           <td>0000</td>
+                           <td>0000</td>
+                           <td>0101</td>
+                           <td>0111</td>
+                       </tr>
+                       <tr >
+                           <td class="grayNumbers">31</td>
+                           <td></td>
+                           <td></td>
+                           <td></td>
+                           <td class="grayNumbers">15</td>
+                           <td></td>
+                           <td></td>
+                           <td class="grayNumbers">0</td>
+                       </tr>
+                   </table>
+               </div>
+           </div>
+
+		   <table id = "calculator">
+			<tr><td colspan = "2" rowspan = "3">
+					<form class="submenuOutside">
+						<ul class="submenu">
+							<li><input type="radio" name="numeral" value="hex" /> Hex</li>
+							<li><input type="radio" name="numeral" value="dec" checked /> Dec</li>
+							<li><input type="radio" name="numeral" value="oct" /> Oct</li>
+							<li><input type="radio" name="numeral" value="bin" /> Bin</li>
+						</ul>
+					</form>
+				</td>
+				<td ><input type="button" class="alphabetBtn" value="" disabled="true"/></td>
+				<td ><input type="button" class="lightBtn" value="Mod"/></td>
+				<td ><input type="button" class="alphabetBtn" value="A" disabled="disabled"/></td>
+				<td ><input type="button" class="shadowBtn"  value="MC"/></td>
+				<td ><input type="button" class="shadowBtn" value="MR"/></td>
+				<td ><input type="button" class="shadowBtn" value="MS"/></td>
+				<td ><input type="button" class="shadowBtn" value="M+"/></td>
+				<td ><input type="button" class="shadowBtn" value="M-"/></td>
+			</tr>
+			<tr>
+				<td ><input type="button" class="lightBtn" value="("/></td>
+				<td ><input type="button" class="lightBtn" value=")"/></td>
+				<td ><input type="button" class="alphabetBtn" value="B" disabled="disabled"/></td>
+				<td ><input type="button" class="lightBtn" value="&#8592"/></td>
+				<td ><input type="button" class="lightBtn" value="CE"/></td>
+				<td ><input type="button" class="lightBtn" value="C"/></td>
+				<td ><input type="button" class="lightBtn" value="&#177"/></td>
+				<td ><input type="button" class="alphabetBtn" value="&#8730" disabled="true"/></td>
+			</tr>
+			<tr>
+				<td ><input type="button" class="lightBtn" value="RoL"/></td>
+				<td ><input type="button" class="lightBtn" value="RoR"/></td>
+				<td ><input type="button" class="alphabetBtn" value="C" disabled="disabled"/></td>
+				<td ><input type="button" class="numbers" value="7"/></td>
+				<td ><input type="button" class="numbers" value="8"/></td>
+				<td ><input type="button" class="numbers" value="9"/></td>
+				<td ><input type="button" class="lightBtn" value="/"/></td>
+				<td ><input type="button" class="alphabetBtn" value="%" disabled="disabled"/></td>
+			</tr>
+			<tr>
+				<td colspan = "2" rowspan = "3">
+					<form class="submenuOutside">
+						<ul class="submenu">
+							<li><input type="radio" name="word" value="qword" checked /> Qword</li>
+							<li><input type="radio" name="word" value="dword" /> Dword</li>
+							<li><input type="radio" name="word" value="word" /> Word</li>
+							<li><input type="radio" name="word" value="byte" /> Byte</li>
+						</ul>
+					</form>
+				</td>
+				<td ><input type="button" class="lightBtn" value="Or"/></td>
+				<td ><input type="button" class="lightBtn" value="Xor"/></td>
+				<td ><input type="button" class="alphabetBtn" value="D" disabled="disabled"/></td>
+				<td ><input type="button" class="numbers" value="4"/></td>
+				<td ><input type="button" class="numbers" value="5"/></td>
+				<td ><input type="button" class="numbers" value="6"/></td>
+				<td ><input type="button" class="lightBtn" value="*"/></td>
+				<td ><input type="button" class="alphabetBtn" value="1/x" disabled="disabled"/></td>
+			</tr>
+				<tr>
+				<td ><input type="button" class="lightBtn" value="Lsh"/></td>
+				<td ><input type="button" class="lightBtn" value="Rsh"/></td>
+				<td ><input type="button" class="alphabetBtn" value="E" disabled="disabled"/></td>
+				<td ><input type="button" class="numbers" value="1"/></td>
+				<td ><input type="button" class="numbers" value="2"/></td>
+				<td ><input type="button" class="numbers" value="3"/></td>
+				<td ><input type="button" class="lightBtn" value="-"/></td>
+				<td rowspan="2"><input type="button" id="equal" class="lightBtn" value="=" disabled="disabled"/></td>
+			</tr>
+			<tr>
+				<td ><input type="button" class="lightBtn" value="Not"/></td>
+				<td ><input type="button" class="lightBtn" value="And"/></td>
+				<td ><input type="button" class="alphabetBtn" value="F" disabled="disabled"/></td>
+				<td  colspan="2"><input type="button" id="zero" class="numbers" value="0"/></td>
+				<td ><input type="button" class="numbers" value="," disabled="disabled"/></td>
+				<td ><input type="button" class="lightBtn" value="+"/></td>
+			</tr>
+		</table> 
+	</div>
+</body>
+</html>

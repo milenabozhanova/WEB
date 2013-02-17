@@ -1,0 +1,20 @@
+table
+{
+	font: areal;
+	font-size: 10pt;
+	font-style: normal;
+	width : 400px;
+	heigth: 200 px;
+}
+
+th
+{
+	font-size: 20pt;
+	font-style: italic;	
+	align: center;
+}
+
+img
+{
+	width:130px;
+}

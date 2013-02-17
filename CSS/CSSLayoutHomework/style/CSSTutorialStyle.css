@@ -1,0 +1,139 @@
+body
+{
+	font-family: sans-serif;
+	background: white;
+	font-size: 12px;
+}
+
+nav
+{
+	float: left;
+	padding-right: 30px;
+}
+
+h2
+{
+	background: url("../img/home.png") no-repeat left;
+	padding-left: 20px; 
+	font-size: 13px;
+}
+
+ul
+{
+	list-style-type: none;
+	padding: 0;
+}
+
+li
+{
+	padding: 0;
+	margin: 0;
+}
+
+ul li a
+{
+	text-decoration: none;
+	color: black;
+}
+
+ul li:first-child > a
+{
+	color: #8B0000;
+	font-weight: bold;
+}
+
+
+section
+{
+	display: inline-block;
+	border: 1px solid gray;
+	padding: 10px;
+	width: 70%; 
+}
+
+h1
+{
+	font-size: 20px;
+}
+
+#firstArticle
+{
+	margin-bottom: 50px;
+
+}
+
+#firstArticle p
+{
+		font-weight: bold;
+}
+section img 
+{
+	padding-right: 10px; 
+	float: left;
+}
+
+section article header, h3
+{
+	margin-top: 0px;	
+	background: gray;
+	color: white;
+	font-size:16px;
+	font-weight: normal;
+}
+section article
+{
+	margin-bottom: 5px;
+}
+
+hr
+{
+	height: 1px;
+	background-color: gray;
+}
+
+button.left
+{
+	background: url("../img/leftArrow.png") no-repeat;
+	width: 100px;
+	height: 20px;
+	border: 1px solid black;
+}
+button.right
+{
+	background: url("../img/rightArrow.png") no-repeat;
+	width: 100px;
+	height: 20px;
+	border: 1px solid black;
+}
+
+section div
+{
+	margin-bottom: 25px;
+	padding: 5px;
+}
+
+aside
+{
+	float: left;
+	padding-left: 5px;
+	position: absolute;
+	display: inline-block;
+	text-align: center;
+}
+
+aside div
+{
+	border: 1px solid gray;
+	padding: 5px;
+}
+
+
+aside div a, section a
+{
+	color: #8B0000;
+}
+
+input[type="text"]
+{
+	width: 100px;
+}
